@@ -1,4 +1,5 @@
 **Equipo:** The Outliers 📊 
+
 Integrantes:
 * Claudia Metz
 * Marianela Pi
