@@ -3,7 +3,8 @@
 Integrantes:
 * Claudia Metz
 * Marianela Pi
-**Proyecto:** Trabajo Final Integrador - Modelos Predictivos  
+
+# **Proyecto:** Trabajo Final Integrador - Modelos Predictivos  
 
 ## 🎯 Objetivo del Proyecto
 El objetivo de este proyecto es aplicar el ciclo completo de análisis de datos y Machine Learning para predecir la cantidad de siniestros viales en Argentina. Para ello, procesamos datasets públicos y desarrollamos dos modelos predictivos de regresión, evaluando su rendimiento y almacenando todo el ciclo en una base de datos NoSQL. Finalmente, los resultados se exponen de manera interactiva.
