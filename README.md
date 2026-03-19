@@ -24,21 +24,6 @@ El objetivo de este proyecto es aplicar el ciclo completo de análisis de datos 
 ├── app.py                          # Aplicación interactiva de Streamlit
 ├── requirements.txt                # Dependencias del proyecto
 └── README.md                       # Documentación
-## 🧠 Modelos y Métricas (Scikit-Learn)
-Dado que el objetivo requiere el uso de métricas de regresión, se transformó el dataset original para predecir variables continuas (cantidad de siniestros).
 
-Se compararon al menos dos algoritmos de regresión. La evaluación técnica se basó en:
-*RMSE (Root Mean Squared Error)
-*MAE (Mean Absolute Error)
-*R² (Coeficiente de Determinación)
 
-El preprocesamiento (escalado de variables numéricas y codificación de variables categóricas) se integró utilizando Pipelines y ColumnTransformer para garantizar buenas prácticas y evitar el data leakage (fuga de datos).
 
-## 🗄️ Almacenamiento NoSQL
-Se implementó una base de datos documental (MongoDB) que contiene tres colecciones principales:
-
-datos_entrada: Registros del dataset limpio y preprocesado.
-
-resultados_modelo: Predicciones generadas y métricas obtenidas (RMSE, MAE, R²).
-
-configuracion: Hiperparámetros y metadatos de los modelos entrenados.
